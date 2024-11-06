@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+     <!-- Navbar -->
+     <header>
+        <div class="logo">
+            <img src="Images/noon-high-resolution-logo-transparent.png"  alt="logo">
+        </div>
+        
+        <div class="options">
+            <ul>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="RisingDesk.html">Rising Desks</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="healthbenefits.html">Health Benefits</a>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="searchbox">
+            <div class="box">
+                <a href="#">
+                    <img src="icons/find.png" alt="searchicon">
+                </a>
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="cart-option">
+                <a href="Basket.html"><img src="icons/shopping-cart.png" alt="cart-option"></a>
+        </div>
+        <div class="account">
+            <div class="accimg">
+                <img src="icons/user.png" alt="accounticon">
+            </div>
+            <ul>
+                <li>
+                    <a href="#">Account</a>
+                <!-- Drop down options -->
+                 <ul>
+                    <li>
+                        <a href="loginform.html">Log in</a>
+                    </li>
+                    <li>
+                        <a href="Signup.html">Sing Up</a>
+                    </li>
+                 </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="navmenu">
+            <input type="checkbox" id="sidebar">
+        <label for="sidebar" class="open-sidebar">
+            <img src="icons/menu1.png" alt="menu">
+        </label>
+        
+        <label id="overlay" for="sidebar"></label>
+        <div class="links-container">
+            <label for="sidebar" class="close-sidebar">
+                <img src="icons/closeo-white.png" alt="close-nav">
+            </label>
+
+            <a href="homepage.html" class="home-link">Home</a>
+            <a href="RisingDesk.html">Rising Desks</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="healthbenefits.html">Health Benefits</a>
+            <a href="loginform.html">Login</a>
+            <a href="Signup.html">Signup</a>
+        </div>
+        </div>
+     </header>
+     <section class="Cart">
+        <h2>Your Shopping Cart</h2>
+        <div class="wrapper">
+           <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/Adjustable_work_table.webp" alt="Adjustable work table">
+                    <div>
+                        <p>Adjustable work table</p>
+                        <small>Price: <span><del>$148.13</del>  $118.44</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$118.44</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/TTRacing_Titus_Smart_Desk.png" alt="TTRacing Titus Smart Desk">
+                    <div>
+                        <p>Branch Duo Standing Desk</p>
+                        <small>Price: <span><del>$501.65</del>  $264.17</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$264.17</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/branch-duo-standing-desk-xl.jpg" alt="branch-duo-standing-desk-xl">
+                    <div>
+                        <p>Branch Duo Standing Desk</p>
+                        <small>Price: <span><del>$650</del>  $599</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$599.00</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/mittzon_desk.png" alt="Mittzon Desk">
+                    <div>
+                        <p>Mittzon Desk</p>
+                        <small>Price: <span>$207.50</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$207.50</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/Uplift_V2_Standing_Desk.jpg" alt="Uplift V2 Standing Desk">
+                    <div>
+                        <p>Uplift V2 Standing Desk</p>
+                        <small>Price: <span>$678</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$678.00</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/Steelcase_Solo_Stand_Desk.jpg" alt="Steelcase Solo Sit-to-Stand Desk">
+                    <div>
+                        <p>Steelcase Solo Sit-to-Stand Desk</p>
+                        <small>Price: <span><del>$1008.50</del>  $999</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$999.00</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/Jarvis_Bamboo_standing_desk.jpg" alt="Jarvis Bamboo standing desk">
+                    <div>
+                        <p>Jarvis Bamboo standing desk</p>
+                        <small>Price: <span><del>$720</del>  $699</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$699.00</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/Fezibo_Standing_Desk.jpg" alt="Fezibo Height Adjustable Electric Standing Desk">
+                    <div>
+                        <p>Fezibo Height Adjustable Electric Standing Desk</p>
+                        <small>Price: <span><del>$340</del>  $280</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$280.00</td>
+            </tr>
+            <tr>
+                <td>
+                  <div class="cart-info">
+                    <img src="Images/Seville_Standing_Desk.jpg" alt="Seville Classics Airlift Electric Height Adjustable Desk with Tempered Glass Top">
+                    <div>
+                        <p>Seville Classics</p>
+                        <small>Price: <span><del>$400</del>  $370</span></small>
+                        <a href="">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$370.00</td>
+            </tr>
+           </table>
+           <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$4,215.11</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$4,250.11</td>
+                </tr>
+            </table>
+           </div>
+        </div>
+     </section>
+     <footer>
+        <section class="footercontainer1">
+           <div class="footer-contact">
+               <div class="column">
+                   <h3>Quick Links</h3>
+                   <ul>
+                       <li>
+                           <div class="spacing">
+                               <a href="homepage.html">Home</a>
+                           </div>
+                          
+                       </li>
+                       
+                       <li>
+                           <div class="spacing">
+                               <a href="RisingDesk.html">Rising Desks </a>
+                           </div>
+                           
+                       </li>
+                       
+                       <li>
+                           <div class="spacing">
+                               <a href="contact.html">Contact Us </a>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="spacing">
+                               <a href="#">Health Benefits </a>
+                           </div>
+                       </li>
+                       <li>
+                           <div class="spacing">
+                               <a href="#">Basket</a>
+                           </div>
+                       </li>
+                       
+                   </ul>
+               </div>
+               <div class="column">
+                   <h3>Contact</h3>
+                   <ul>
+                       <li>
+                           <span class="span-footer">Phone Number </span>
+                           <div class="spacing">
+                               <a href="#">+959-779-052-091</a>
+                           </div>
+                          
+                       </li>
+                       
+                       <li>
+                           <span class="span-footer">Email </span>
+                           <div class="spacing">
+                               <a href="#">Noon@gmail.com</a>
+                           </div>
+                           
+                       </li>
+                       
+                       <li>
+                           <span class="span-footer">Address </span>
+                           <div class="spacing"><a href="#">Main Road,<br> Kyaikmayaw, Mon State</a></div>
+                       </li>
+                       
+                   </ul>
+               </div>
+               <div class="column1">
+                   <h3>Follow Us</h3>
+                   <div class="socialicons">
+                    <a href="https://www.facebook.com"><img src="icons/facebook.png" alt="facebookicon"></a>
+                    <a href="https://www.instagram.com"><img src="icons/instagram.png" alt="instagramicon"></a>
+                    <a href="https://www.twitter.com"> <img src="icons/twitter.png" alt="twittericon"></a>
+                   </div>
+               </div>
+           </div>
+             <div class="copyright">
+                 <p>Copyright © 2024 <span class="footerspan">MIN NANN LIN AUNG</span>. All Rights Reserved.</p>
+             </div>
+         </section>
+     </footer>
+</body>
+</html>
